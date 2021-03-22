@@ -1,0 +1,72 @@
+// Bootstrap
+@import "vendor/bootstrap/scss/bootstrap.scss";
+
+//Variables
+$font: 'Mulish', sans-serif;
+$robinBlue: #5a9cff;
+$darkGrey: #303742;
+
+.shareRegistry {
+  p {
+    font-family: $font;
+    font-weight: 300;
+    font-size: .875rem;
+    line-height: 1.25;
+    color: $darkGrey
+  }
+
+  span {
+    font-weight: 800;
+  }
+
+  .row{
+    display:flex;
+  }
+
+  .btn {
+    font-weight: 800;
+
+  }
+
+  .btn-lg {
+    font-size: .8125rem;
+    line-height: 2.3rem;
+    min-width: 150px;
+    min-height: 50px;
+    width: 100%;
+  }
+
+  .btn-primary, .btn-primary:link, .btn-primary:visited {
+    color: #fff;
+    background-color: $robinBlue;
+    border: 2px solid $robinBlue;
+    text-decoration: none;
+  }
+
+  .textcallout{
+    padding: 1.5em 0 !important;
+  }
+
+  @media (min-width: 768px) {
+    .regButton {
+      display: inline-block;
+      margin-top: 0;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .regButton {
+      margin-top: .5rem;
+    }
+    .textcallout{
+      padding: 1.5em 0 0  !important;
+    }
+  }
+}
+
+
+
+
+
+
+
+
